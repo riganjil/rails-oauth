@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   use_doorkeeper do
-    skip_controllers :authorizations, :authorized_applications, :applications
+    # skip_controllers :applicatons
   end
   get 'pages/index'
 
